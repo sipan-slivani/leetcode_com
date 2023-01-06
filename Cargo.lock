@@ -3,5 +3,13 @@
 version = 3
 
 [[package]]
-name = "leetcode_com"
+name = "_1_Two_Sum"
+version = "0.1.0"
+
+[[package]]
+name = "_2_Add_Two_Numbers"
+version = "0.1.0"
+
+[[package]]
+name = "_3_Longest_Substring"
 version = "0.1.0"

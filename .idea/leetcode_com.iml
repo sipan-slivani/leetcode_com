@@ -2,8 +2,14 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/_1_Two_Sum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_1_two_sum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_2_Add_Two_Numbers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/_3_Longest_Substring/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/_1_two_sum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/_1_Two_Sum/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
