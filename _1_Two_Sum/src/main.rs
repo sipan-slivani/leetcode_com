@@ -11,8 +11,10 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     let my_vec = 'outer: loop {
         index2 = index1 + 1;
         loop {
-            if nums[index1] + nums[index2] == target && index1 != index2 {
-                break 'outer vec![index1 as i32, index2 as i32];
+            if nums[index1] + nums[index2] == target {
+                if index1 != index2 {
+                    break 'outer vec![index1 as i32, index2 as i32];
+                }
             }
             if index2 < ln - 1 {
                 index2 += 1;
