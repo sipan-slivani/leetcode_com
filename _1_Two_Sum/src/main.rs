@@ -8,7 +8,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     let mut index1 = 0;
     let mut index2;
     let ln = nums.len();
-    let my_vec = 'outer: loop {
+    let vec1 = 'outer: loop {
         index2 = index1 + 1;
         loop {
             if nums[index1] + nums[index2] == target {
@@ -29,5 +29,5 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         }
     };
 
-    my_vec
+    vec1
 }
